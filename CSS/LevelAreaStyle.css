@@ -1,0 +1,19 @@
+#levelArea {
+    width: 170px;
+    height: 35px;
+    padding: 20px;
+    position: fixed;
+    font-family: Bahnschrift, Arial, sans-serif;
+    font-size: 35px;
+    margin: 400px 65px;
+    background: rgb(205, 217, 245);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+#level {
+    font-family: Bahnschrift, Arial, sans-serif;
+    font-size: 35px;
+    color: blue;
+    margin: -42px 125px;
+}

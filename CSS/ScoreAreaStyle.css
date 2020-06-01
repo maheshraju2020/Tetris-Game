@@ -1,0 +1,22 @@
+#scoreArea {
+    width: 170px;
+    height: 35px;
+    padding: 20px;
+    position: fixed;
+    font-size: 35px;
+    border-radius: 10px;
+    margin: 300px 65px;
+    background: rgb(205, 217, 245);
+    border: 2px solid rgb(0, 0, 0);
+    font-family: Bahnschrift, Arial, sans-serif;
+}
+
+#score {
+    text-align: center;
+    width: 80px;
+    position: fixed;
+    font-family: Bahnschrift, Arial, sans-serif;
+    font-size: 35px;
+    color: red;
+    margin: -42px 100px;
+}

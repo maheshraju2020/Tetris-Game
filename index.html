@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tetris</title>
+		<link rel="stylesheet" href="./CSS/activityArea.css" />
+		<link rel="stylesheet" href="./CSS/GameOverBoxStyle.css" />
+		<link rel="stylesheet" href="./CSS/LevelAreaStyle.css" />
+		<link rel="stylesheet" href="./CSS/NextPieceBoxStyle.css" />
+		<link rel="stylesheet" href="./CSS/PausePageBoxStyle.css" />
+		<link rel="stylesheet" href="./CSS/ScoreAreaStyle.css" />
+	</head>
+	<body>
+		<div id="tetrisBox">
+			<img id="icon" src="./icon.svg" alt="" />
+			<div id="nextPiece"></div>
+			<div id="activityArea"></div>
+			<div id="scoreArea">
+				<div id="scoreTitle">Score</div>
+				<div id="score">0</div>
+			</div>
+			<div id="levelArea">
+				<div id="levelTitle">Level</div>
+				<div id="level">1</div>
+			</div>
+			<div id="startNotice">Press Space to Start</div>
+			<div id="pauseNotice">Press Space to Pause</div>
+		</div>
+		<div id="modal">
+			<div id="pausePage">
+				<div id="pauseText">Paused</div>
+				<div id="resumeNotice">Press Space to Resume</div>
+			</div>
+			<div id="gameOverPage">
+				<div id="gameOverText">Game Over</div>
+				<div id="scoreText">Score :</div>
+				<div id="curScore">0</div>
+				<div id="restartNotice">Press Space to Restart</div>
+			</div>
+		</div>
+	</body>
+	<script type="module" src="./Scripts/Tetris.js"></script>
+</html>

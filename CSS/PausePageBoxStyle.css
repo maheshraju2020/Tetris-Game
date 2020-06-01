@@ -1,0 +1,43 @@
+#pausePage {
+    display: none;
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    padding: 30px 130px;
+    margin: 140px 400px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: rgb(148, 148, 148) 5px 5px 5px;
+    background: rgb(189, 189, 189);
+}
+
+#pauseText {
+    width: 200px;
+    height: 200px;
+    font-size: 70px;
+    color: rgb(255, 0, 0);
+    font-family: Arial, sans-serif;
+    animation: blink 2s ease-out infinite;
+}
+
+#resumeNotice {
+    font-size: 25px;
+    position: fixed;
+    margin: -80px -10px;
+    color: rgb(0, 0, 0);
+    font-family: Bahnschrift, Arial, sans-serif;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

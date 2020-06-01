@@ -1,0 +1,39 @@
+#gameOverPage {
+    display: none;
+    width: 750px;
+    height: 300px;
+    position: fixed;
+    margin: 120px 300px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: rgb(189, 189, 189);
+    box-shadow: rgb(131, 131, 131) 5px 5px 5px;
+}
+
+#gameOverText {
+    font-size: 80px;
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+    margin: 10px 150px;
+}
+
+#scoreText {
+    font-size: 40px;
+    margin: 50px 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#curScore {
+    color: blue;
+    font-size: 40px;
+    margin: -92px 390px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#restartNotice {
+    font-size: 25px;
+    position: fixed;
+    margin: 150px 230px;
+    color: rgb(59, 3, 61);
+    font-family: Bahnschrift, Arial, sans-serif;
+}

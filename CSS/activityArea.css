@@ -1,0 +1,72 @@
+body {
+    background: #9693e8;
+    background: linear-gradient(51deg, rgba(150, 147, 232, 1) 40%, rgba(129, 131, 240, 1) 87%);
+}
+
+#icon {
+    position: fixed;
+    margin: -25px -255px;
+}
+
+#activityArea {
+    position: fixed;
+    outline: 5px solid #000;
+    font-size: 0;
+    padding: 0;
+    border: none;
+    width: 392px;
+    height: 505px;
+    margin: 30px 350px;
+    background: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    box-shadow: grey 10px 10px 10px 10px;
+}
+
+.box {
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: -2px;
+    margin-bottom: -2px;
+}
+
+#tetrisBox {
+    position: fixed;
+    width: 800px;
+    height: 570px;
+    margin: 20px 250px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#startNotice,
+#pauseNotice {
+    font-size: 30px;
+    position: fixed;
+    margin: 520px 40px;
+    font-family: Bahnschrift,
+        Arial,
+        sans-serif;
+    color: red;
+}
+
+#pauseNotice {
+    display: none;
+}
+
+#tetrisBox {
+    background: rgb(203, 202, 202);
+    background: linear-gradient(51deg, rgba(203, 202, 202, 1) 46%, rgba(168, 162, 162, 1) 89%);
+    box-shadow: grey 15px 15px 15px;
+}
+
+#modal {
+    display: none;
+    margin: -8px -8px;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.712);
+}
