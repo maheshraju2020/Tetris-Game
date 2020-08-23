@@ -1,4 +1,4 @@
-## Tetrix-Game
+## Tetris-Game
 
 This is just a mimic of famous Tetris game, made using HTML, CSS and Javascipt.
 
